@@ -1,5 +1,11 @@
 # @assistant-ui/react
 
+## 0.9.2
+
+### Patch Changes
+
+- 553bdff: feat: early return ChatModelAdapter.run on cancellation
+
 ## 0.9.1
 
 ### Patch Changes
