@@ -1,5 +1,15 @@
 # @assistant-ui/core
 
+## 0.3.20
+
+### Patch Changes
+
+- [#7458](https://github.com/assistant-ui/assistant-ui/pull/7458) [`4e08ba6`](https://github.com/assistant-ui/assistant-ui/commit/4e08ba680a4adb66fb39043d93f46377be0f861a) - fix: Generative UI rendering no longer throws when a node's `children` is not an array; a string or node renders as the only child, and any other value is skipped with the malformed-node warning. ([@rupic-app](https://github.com/apps/rupic-app))
+
+- [#7452](https://github.com/assistant-ui/assistant-ui/pull/7452) [`bc84250`](https://github.com/assistant-ui/assistant-ui/commit/bc842502b68a0dcc4c3728e6f6ea542e5a9bcbc5) - fix: preserve voice modality when loading local storage history ([@rupic-app](https://github.com/apps/rupic-app))
+- Updated dependencies [[`562e495`](https://github.com/assistant-ui/assistant-ui/commit/562e495139605d5279e9bd39abc223ef52b79a94)]:
+  - assistant-stream@0.3.44
+
 ## 0.3.19
 
 ### Patch Changes
